@@ -1,7 +1,7 @@
 # if.js
 ###### (v0.1.0)
 
-if.js is a fast and effective validator library. It helps to validate e-mail, phone number, date and expressions. This library designed to make form validations easier, because of that, i focused most important parts of validations. So please don't hesitate to share your thoughts.
+if.js is a fast and effective validator library. It helps to validate e-mail, phone number, date and expressions. Please don't hesitate to share your thoughts.
 
 Demo link : https://codepen.io/imagets/pen/XpVbKr
 
