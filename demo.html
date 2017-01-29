@@ -1,0 +1,29 @@
+<form>
+	<label>E-mail</label>
+	<input if="this.type == 'email'">
+
+	<hr>
+
+	<label>12 Character Length</label>
+	<input if="this.length < 12">
+</form>
+
+<script type="text/javascript" src="if.js"></script>
+<script type="text/javascript">
+
+	_if.init('input, select', {
+		timeout : 50,
+		validateOnSubmit : true
+	});
+
+</script>
+
+<style type="text/css">
+	.danger{
+		border:solid 3px red;
+	}
+
+	.success{
+		border:solid 3px green;
+	}
+</style>
